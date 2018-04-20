@@ -1,0 +1,6 @@
+services:
+  cache.backend.gzip_decorator:
+    class: Drupal\cache_gzip\Cache\GzipBackendFactory
+    arguments: ['@settings']
+    calls:
+      - [setContainer, ['@service_container']]

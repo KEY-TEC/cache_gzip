@@ -1,0 +1,10 @@
+name: Cache Split
+type: module
+description: Provides a cache backend to split cache bins in separate backends.
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2017-10-09
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'cache_split'
+datestamp: 1507540151

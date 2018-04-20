@@ -1,0 +1,5 @@
+{
+  "name": "drupal/cache_gzip",
+  "type": "drupal-module",
+  "license": "GPLv3"
+}
