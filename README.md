@@ -1,7 +1,7 @@
 # cache_gzip
 
-The module provides a cache backend decorator which compress uncompress the data using gzcompress and gzuncompress
-
+The module provides a cache backend decorator which compress uncompress the data using gzcompress and gzuncompress before it is cached.
+This saves up 80% of the cached data. 
 ## Installation
 
 1. Download cache_gzip module or [add it via composer](https://www.drupal.org/docs/develop/using-composer/using-composer-to-manage-drupal-site-dependencies)
